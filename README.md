@@ -36,5 +36,12 @@ Z = WX^t + b
 
 y = BTU(Z)
 
+After the calculation we get a final result, the training is the implementaion of change in the weight values of the network based on that result.
+we decide on a loss fucntion to mesure the error and implement changes to the weights so the loss value will go lower, and by that getting closer to a right prediction for the values of our input.
+
+It should be mention that not all networks can implement all functions, but we could follow a logic on how to build a network to match our fuciton that were trying to implement:
+
 If we have n inputs and 2^n hidden units in our hidden layer we could provide a simple solution, in a way that each hidden unit represents a single combanation, in practice we can't clearly assume that units get that type of responsibility, but as long as the solution is provided in the legal range of solutions it doesn't make a difference.
+
+
 
